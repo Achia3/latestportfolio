@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+ <link rel="stylesheet" href="styles.css">
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js" defer></script>
+
+</head>
+<body>
+
+   <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="navbar-name">Axeil Achia</div>
+      <div class="navbar-buttons">
+            <a href="#home-container"><button class="btn-nav">Home</button></a>
+            <a href="#yes"><button class="btn-nav">About</button></a>
+            <a href="#experiences-container"><button class="btn-nav">Resume</button></a>
+            <a href="#bro"><button class="btn-nav">Portfolio</button></a>
+            <a href="#contact"><button class="btn-nav">Contact</button></a>
+        </div>
+    </nav>
+
+  <div class="portfolio-main-container" id="portfolio-main-container">
+
+    <div class="home-container" id="home-container">
+      <div class="shared-left-align">
+        <div class="home-left">
+          <h1 class="name">Axeil Achia Manzano</h1>
+          <h2 class="desc">
+            Aspiring <span class="web-span">full-stack developer</span> from the Philippines
+          </h2>
+          <div class="buttons-container">
+            <!--ADD CV/GITHUB HERE ICONS-->
+
+            <div class="upper-icons">
+             
+              <a href="cv.pdf" target="_blank">
+                <button class="btn"> Download CV</button>
+              </a>
+
+              
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="home-right">
+        <div class="picture-container">
+          <img src="me.png" alt="" class="home-picture" />
+        </div>
+      </div>
+    </div>
+
+    <div class="about-me-container" id="about-me-container">
+      <div class="shared-left-align" data-aos="fade-right" data-aos-duration="800" id="yes">
+        <h1 class="experiences-title">About Me</h1>
+      </div>
+
+      <div class="content-container">
+        <div class="left-side-picture" data-aos="fade-right" data-aos-duration="800">
+          <img src="mereal.png" alt="" class="pic-about">
+        </div>
+
+        <div class="right-side" data-aos="fade-left" data-aos-duration="800">
+          <div class="about-header">
+            <h1 style="color: rgb(75, 254, 126); padding-bottom: 0px;">CS Student︱Aspiring full-stack developer </h1>
+          </div>
+
+          <div class="short-italized">
+            <p style="font-style: italic; color: white; font-size: 17px; margin-top: -10px; margin-bottom: 25px;">Hello ! I'm Axeil Achia an aspiring full-stack developer. Programming is like being in a relationship with your code just when you think you understand it, it throws an error and teaches you something new. </p>
+          </div> 
+
+          <div class="info-list">
+            <div class="left-list">
+              <p><span><span style="padding-right: 10px; color: rgb(75, 254, 126) ;">></span> Phone:</span> +63 993 577 1540</p>
+              <p><span><span style="padding-right: 10px; color: rgb(75, 254, 126);">></span> City:</span> City: Bacoor City, Metro Manila</p>
+            </div>
+
+            <div class="right-list">
+              <p><span><span style="padding-right: 10px; color: rgb(75, 254, 126);">></span> College Level:</span> 2nd year college</p>
+              <p><span><span style="padding-right: 10px; color: rgb(75, 254, 126);">></span> Certificates:</span> 1</p>
+            </div>
+          </div>
+
+          <div class="story">
+            <p style="color: white;">
+              Hi! I'm Axeil Achia Manzano Escabal, an aspiring full-stack developer from the Philippines currently studying Computer Science specialized in Data Science. I started learning programming out of curiosity, and now it's something I genuinely enjoy doing every day. I'm always exploring new technologies, frameworks, and design patterns to improve my skills and stay updated in this ever-evolving field. Right now, I'm learning more about React, JavaScript, and backend development to become a well-rounded developer. Aside from coding, I also enjoy working on creative projects like designing portfolios, experimenting with animations, and even building small games or tools for fun. My long-term goal is to create meaningful digital experiences and maybe even build something that makes someone's life just a bit easier.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="interest-container">
+        <div class="interest" data-aos="fade-right" data-aos-duration="500">
+          <p>Techs i use ⎯⎯⎯⎯⎯</p>
+        </div>
+
+        <div class="grid-container">
+          <div class="interest-box" data-aos="zoom-in" data-aos-duration="600">
+            <div class="interest-icon">
+              <img src="icons/python.svg" alt="" class="tech-pic">
+            </div>
+            <div class="interest-text">
+              Python
+            </div>
+          </div>
+
+          <div class="interest-box" data-aos="zoom-in" data-aos-duration="700">
+            <div class="interest-icon">
+              <img src="icons/javascript.svg" alt="" class="tech-pic">
+            </div>
+            <div class="interest-text">
+              JavaScript
+            </div>
+          </div>
+
+          <div class="interest-box" data-aos="zoom-in" data-aos-duration="800">
+            <div class="interest-icon">
+              <img src="icons/html.svg" alt="" class="tech-pic">
+            </div>
+            <div class="interest-text">
+              HTML
+            </div>
+          </div>
+
+          <div class="interest-box" data-aos="zoom-in" data-aos-duration="900">
+            <div class="interest-icon">
+              <img src="icons/css.svg" alt="" class="tech-pic">
+            </div>
+            <div class="interest-text">
+              CSS
+            </div>
+          </div>
+
+          <div class="interest-box" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="interest-icon">
+              <img src="icons/vscode.svg" alt="" class="tech-pic">
+            </div>
+            <div class="interest-text">
+              VS code
+            </div>
+          </div>
+
+          <div class="interest-box" data-aos="zoom-in" data-aos-duration="1100">
+            <div class="interest-icon">
+              <img src="icons/github.svg" alt="" class="tech-pic">
+            </div>
+            <div class="interest-text">
+              Github
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experiences Section -->
+    <div class="experiences-container" id="experiences-container">
+      <h1 class="experiences-title" data-aos="zoom-in" data-aos-duration="800">My Experiences</h1>
+      
+      <div class="timeline">
+        <div class="timeline-light"></div>
+        
+        <div class="experience">
+          
+          <div class="experience-content">
+            <div class="experience-date">2024 - Present</div>
+            <div class="experience-title">2nd Year College</div>
+            <div class="experience-company">University of Perpetual Help System Dalta</div>
+            <div class="experience-description">
+              I got interested in programming in Grade 10 after watching programmers online. Taking the STEM strand in senior high deepened that interest. Now I'm a 2nd year Computer Science student, continuing to learn and grow in the field.
+            </div>
+          </div>
+        </div>
+
+        <div class="experience">
+          
+          <div class="experience-content">
+            <div class="experience-date">2023 - 2024</div>
+            <div class="experience-title">1st Year College</div>
+            <div class="experience-company">University of Perpetual Help System Dalta</div>
+            <div class="experience-description">
+              Started my programming journey by learning Python, JavaScript, HTML, and CSS through online resources and tutorials. Built several personal projects including portfolio websites, small games, and utility tools while developing problem-solving skills.
+            </div>
+          </div>
+        </div>
+
+        <div class="experience">
+          <div class="experience-content">
+            <div class="experience-date">2021 - 2023</div>
+            <div class="experience-title">Tech Enthusiast</div>
+            <div class="experience-company">Discovery Phase</div>
+            <div class="experience-description">
+              I discovered my passion for technology and programming back in junior high school. Watching programmers create things through code inspired me to learn more. During senior high, I took the STEM strand, which deepened my interest in the world of computing and software development.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Educational background Section -->
+
+    <div class="educ-background-main">
+      <div class="educ-header" data-aos="fade-right" data-aos-duration="800">
+        <h1>Educational Background</h1>
+      </div>
+
+      <div class="head-2" data-aos="zoom-in" data-aos-duration="800">
+        <h2>Academic Records</h2>
+        <h2 class="exp">Experience/Internship</h2>
+      </div>
+
+      <div class="educ-content-main-container">
+        <div class="connect-ball-line">
+          <div class="educ-content" data-aos="fade-right" data-aos-duration="800">
+            <div class="left-educ">
+              <div class="educ-ball"></div>
+              <div class="educ-line"></div>
+            </div>
+
+            <div class="right-educ">
+              <p>UNIVERSITY OF PERPETUAL HELP SYSTEM DALTA - MOLINO</p>
+              
+              <div class="sub-info">
+                <div class="year-educ">
+                  2024 - PRESENT
+                </div>
+
+                <div class="time">
+                  <i>BSCS-DS</i>
+                </div>
+              </div>
+              
+              <div class="list">
+                <ul>
+                  <li><strong>ITS HTML & CSS Specialist Certificate</strong> – <em>Certiport, Awarded December 2024</em> </li>
+                  <li><strong>Stay Sharp, Stay Secure: A Seminar on Mastering Cybersecurity</strong> – <em>Attendee, April 2025</em></li>
+                  <li><strong>ATA Privacy and Cyber Awareness Campaign</strong> – <em>Attendee, October 2024</em></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="educ-content" data-aos="fade-right" data-aos-duration="800">
+            <div class="left-educ">
+              <div class="educ-ball"></div>
+              <div class="educ-line"></div>
+            </div>
+
+            <div class="right-educ">
+              <p>UNIVERSITY OF PERPETUAL HELP SYSTEM DALTA - MOLINO</p>
+              
+              <div class="sub-info">
+                <div class="year-educ">
+                  2022 - 2023
+                </div>
+
+                <div class="time">
+                  <i>STEM - YEAR 11 & 12</i>
+                </div>
+              </div>
+              
+              <div class="list">
+                <ul>
+                  <li><strong>WITH HONORS</strong> - <em>Grade 11 First Semester</em></li>
+                  <li><strong>Research:</strong> “Understanding Perceptions and Experiences of Low-Income Families About Healthcare in Bacoor, Cavite”</li>
+                  <li><strong>Investigatory Project:</strong> “Preserving Freshness: Assessing Cinnamon and Rosemary Essential Oils to Extend Shelf Life of Fresh Produce”</li>
+                  <li>Developed strong skills in scientific research, data collection, and critical thinking</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE EXP -->
+
+        <div class="connect-ball-line">
+          <div class="educ-content" data-aos="fade-left" data-aos-duration="800">
+            <div class="left-educ">
+              <div class="educ-ball"></div>
+              <div class="educ-line"></div>
+            </div>
+
+            <div class="right-educ">
+              <p>UNIVERSITY OF PERPETUAL HELP SYSTEM DALTA - MOLINO</p>
+              
+              <div class="sub-info">
+                <div class="year-educ">
+                  2024 - PRESENT
+                </div>
+
+                <div class="time">
+                  <i>BSCS-DS</i>
+                </div>
+              </div>
+              
+              <div class="list">
+                <ul>
+                  <li>Designed a responsive website mockup for a nonprofit organization to enhance their online presence and branding.</li>
+                  <li style="color: black;"><strong>Investigatory Project:</strong> “Preserving Freshness: Assessing Cinnamon and Rosemary Essential Oils to Extend Shelf Life of Fresh Produce”</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+        
+      </div>
+
+    </div>
+
+    <div class="projects-title-container" data-aos="zoom-in" data-aos-duration="800" id="projects-title-container">
+      <h1 class="projects-title" id="">Certifications</h1>
+    </div>
+
+    <div class="certification-main-grid">
+
+      <div class="certificate" data-aos="zoom-in-down" data-aos-duration="1300" >
+        <h1>IT Specialist - HTML and CSS</h1>
+        <p>This certification demonstrates my proficiency and dedication to maintaining industry standards and best practices.</p>
+        <p style="margin-bottom: 35px;"><i>Issued by Certiport</i></p>
+        <a href="https://www.credly.com/badges/9057d57e-19ed-4339-b9a9-da0c292dbd5d/public_url" target="_blank"><button class="btn-nav">Verify</button></a>
+      </div>
+      <div class="certificate" style="justify-content: center; color: #666666;" data-aos="zoom-in-down" data-aos-duration="1300" >
+
+        <h1 style="color: #666666;">More Coming Soon</h1>
+        <p style="color: #666666;">Continuously expanding my expertise
+          with new certifications</p>
+
+      </div>
+      <div class="certificate" style="justify-content: center;" data-aos="zoom-in-down" data-aos-duration="1300" >
+        
+        <h1 style="color: #666666;">More Coming Soon</h1>
+        <p style="color: #666666;">Continuously expanding my expertise
+          with new certifications</p>
+
+      </div>
+
+      
+    </div>
+
+    <!--PROJECTS SECTION STARTS HERE-->
+
+
+
+    <div class="projects-title-container" data-aos="zoom-in" data-aos-duration="800" id="projects-title-container">
+      <h1 class="projects-title" id="bro">My Projects</h1>
+    </div>
+
+    <div class="projects-container-main">
+      <a href="https://taildashreal.netlify.app/" target="_blank"> 
+        <div class="project" data-aos="zoom-in-down" data-aos-duration="1300">
+          
+          <article class="article-wrapper">
+            <div class="rounded-lg container-project">
+                <img src="projects/taildash.jpg" alt="" class="tech-pic">
+              </div>
+              <div class="project-info">
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap">Taildash</div>
+                    <div class="project-hover">
+                      <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" color="black" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><line y2="12" x2="19" y1="12" x1="5"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </div>
+                    </div>
+                    <div class="types">
+                      <span style="background-color: rgba(165, 96, 247, 0.43); color: rgb(85, 27, 177);" class="project-type">• HTML</span>
+                      <span class="project-type">•  CSS</span>
+                      <span class="project-type">•  JavaScript</span>
+                  </div>
+
+                  <!--PUT DESCRIPTION HERE-->
+
+                  <div style="font-size: 15px;">
+                    TailDash is a simple 2D platformer game I built using HTML, CSS, and JavaScript, featuring smooth movement and basic jump mechanics.
+
+
+                  </div>
+              </div>
+          </article>
+        </div>
+      </a>
+      <a href="https://achia3.github.io/gameforum/" target="_blank">
+        <div class="project" data-aos="zoom-in-down" data-aos-duration="1300">
+          <article class="article-wrapper">
+            <div class="rounded-lg container-project">
+                <img src="projects/forum.jpg" alt="" class="tech-pic">
+              </div>
+              <div class="project-info">
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap" style="color: rgb(0, 0, 0);">Game Forum</div>
+                    <div class="project-hover">
+                      <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" color="black" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><line y2="12" x2="19" y1="12" x1="5"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </div>
+                    </div>
+                    <div class="types">
+                      <span style="background-color: rgba(165, 96, 247, 0.43); color: rgb(85, 27, 177);" class="project-type">• HTML</span>
+                      <span class="project-type">• CSS</span>
+                  </div>
+
+                  <div>
+                    I built a game forum using HTML and CSS, designed for players to share thoughts and discuss games.
+                  </div>
+                  
+              </div>
+          </article>
+        </div>
+      </a>
+      <a href="https://achia3.github.io/Student-Data-Analyzer-web/" target="_blank">
+        <div class="project" data-aos="zoom-in-down" data-aos-duration="1300">
+          <article class="article-wrapper">
+            <div class="rounded-lg container-project">
+                <img src="projects/analyzer.jpg" alt="" class="tech-pic">
+              </div>
+              <div class="project-info">
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap">Data Analyzer</div>
+                    <div class="project-hover">
+                      <svg style="color: black;" xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" color="black" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor"><line y2="12" x2="19" y1="12" x1="5"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                      </div>
+                    </div>
+                    <div class="types">
+                      <span style="background-color: rgba(165, 96, 247, 0.43); color: rgb(85, 27, 177);" class="project-type">• HTML</span>
+                      <span class="project-type">• CSS</span>
+                      <span class="project-type">• javascript</span>
+                  </div>
+
+                  <div>
+                    I developed a Student Data Analyzer using HTML, CSS, and JavaScript that lets users upload a CSV file to analyze student performance by department.
+                  </div>
+              </div>
+          </article>
+        </div>
+      </a>
+    </div>
+
+    <!--TESTIMONIALS SECTION-->
+    <div class="interest" data-aos="fade-right" data-aos-duration="500">
+      <p>Testimonials ⎯⎯⎯⎯⎯</p>
+    </div>
+
+    <div class="testimonials-container">
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="600">
+        <div class="img-testimonial">
+          <img src="testimonials/hoby.jpg" alt="" class="testimonial-icon">
+        </div>
+        <div class="statement">
+          <blockquote>Working with Axeil on our class projects was a great experience. He’s dedicated, consistent, and always willing to go the extra mile to ensure everything is done right. Even under pressure, he stays calm and focused. You can really tell that he takes pride in his work.</blockquote>
+        </div>
+        <div class="testimonial-name">Hoby Ace Josol</div>
+        <div class="status">UPHSD|Student</div>
+      </div>
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="800">
+          <div class="img-testimonial">
+            <img src="testimonials/miko.jpg" alt="" class="testimonial-icon">
+          </div>
+        <div class="statement">
+          <blockquote>I've worked with Axeil a few times on school projects. He gets things done and doesn’t just wait around for others to move. Not loud, not bossy, just consistent and focused.</blockquote>
+
+        </div>
+        
+        <div class="testimonial-name">John Miko Sarsalijo</div>
+        <div class="status">UPHSD|Student</div>
+      </div>
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="img-testimonial">
+          <img src="testimonials/aahron.jpg" alt="" class="testimonial-icon">
+        </div>
+        <div class="statement">
+          <blockquote>He doesn't pretend to know everything, which makes it easy to work with him. If he doesn’t know something, he looks it up and figures it out. Simple as that.</blockquote>
+        </div>
+        <div class="testimonial-name">Aahron Garcia</div>
+        <div class="status">UPHSD|Student</div>
+      </div>
+    </div>
+  </div>
+
+    <div class="testimonials-container">
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="600">
+        <div class="img-testimonial" >
+          <img src="testimonials/giian.jpg" alt="" class="testimonial-icon">
+        </div>
+        <div class="statement">
+          <blockquote>Even if we’re in different universities, Axeil’s always been reachable. I’d message him about random coding issues, and he actually replies with useful stuff, not just links or vague tips.</blockquote>
+        </div>
+        <div class="testimonial-name">Giian Rein Medina</div>
+        <div class="status">NU MOA|Student</div>
+      </div>
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="800">
+          <div class="img-testimonial">
+            <img src="testimonials/maverick.jpg" alt="" class="testimonial-icon">
+          </div>
+        <div class="statement">
+          <blockquote>Even though I’m studying dentistry and we’re in completely different fields, Axeil’s always been helpful when I needed anything tech-related. He’s focused on what he wants to do and just quietly puts in the work. It’s something I respect even if we don’t talk all the time.</blockquote>
+
+        </div>
+        
+        <div class="testimonial-name">Arehn Maverick</div>
+        <div class="status">CEU Makati|Student</div>
+      </div>
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="img-testimonial">
+          <img src="testimonials/jrmy.jpg" alt="" class="testimonial-icon">
+        </div>
+        <div class="statement">
+          <blockquote>Even though we go to different schools now, Axeil is still the first person I reach out to whenever I need help with anything tech-related. He’s incredibly patient and really knows how to explain things in a way that makes sense. Distance never changed the way he supports and motivates his friends.</blockquote>
+        </div>
+        <div class="testimonial-name">Jeremiah Palomado</div>
+        <div class="status">NU MOA|Student</div>
+      </div>
+
+      
+    </div>
+
+      <div class="testimonials-container">
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="600">
+        <div class="img-testimonial">
+          <img src="testimonials/bei.jpg" alt="" class="testimonial-icon">
+        </div>
+        <div class="statement">
+          <blockquote>One thing I like about Axeil is that he doesn’t make things complicated. Whether it’s a school task or a casual chat about tech, he just keeps it simple and clear.</blockquote>
+        </div>
+        <div class="testimonial-name">Beomarc Andrew</div>
+        <div class="status">UPHSD|Student</div>
+      </div>
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-duration="800">
+          <div class="img-testimonial">
+            <img src="testimonials/iz.jpg" alt="" class="testimonial-icon">
+          </div>
+        <div class="statement">
+          <blockquote>Axeil isn’t the most talkative person in the group, but when it’s time to get serious, he’s reliable. He does his part, keeps everything organized, and makes sure we finish what we start.</blockquote>
+
+        </div>
+        
+        <div class="testimonial-name">Christian Ezekiel</div>
+        <div class="status">UPHSD|Student</div>
+      </div>
+    </div>
+
+    <div class="contact-head-container" data-aos="zoom-in" data-aos-duration="800" id="projects-title-container">
+      <h1 class="contact-head" id="contact"><strong>Get In Touch</strong></h1>
+    </div>
+
+    <div class="contact-main-container">
+      <div class="left-side-contact" data-aos="fade-right" data-aos-duration="1000" id="contact">
+        <h1>Let's Work Together</h1>
+
+        <div style="width: 350px; text-align: justify;">
+          <p>Im always interested in opportunities and exciting projects. Whether you have a question or you just want to say hi, feel free to reach out!</p>
+        </div>
+
+        
+
+        <div class="contacts-icon-container">
+
+          <div class="contacts-info-container">
+            <div class="contact-sub">
+              <div class="icon-contanct-container"> <img src="icons/phone.svg" alt="" class="contact-icon"></div>
+              <div>63+ 993 577 1540</div>
+            </div>
+            <div class="contact-sub">
+              <div class="icon-contanct-container"><img src="icons/email.svg" alt=""class="contact-icon"></div>
+              <div> escabal.axeilachia@gmail.com</div>
+            </div>
+            <div class="contact-sub">
+              <div class="icon-contanct-container"><img src="icons/location.svg" alt=""class="contact-icon"></div>
+              <div>Philippines, Cavite, Bacoor</div>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+
+
+
+<div class="right-side-contact" data-aos="fade-left" data-aos-duration="1000">
+  <form action="https://formsubmit.co/dankmeme0133@gmail.com" method="POST" class="form-main-container">
+    
+    
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html"> 
+
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject" required>
+    <textarea name="message" id="message" placeholder="Message" required></textarea>
+
+    <button class="btn-nav" style="width: 400px; margin-top: 20px; height: 50px;" type="submit">Submit</button>
+  </form>
+</div>
+
+
+  </div>
+
+    <div class="footer">
+      <p>© Axeil Achia 2025</p>
+    </div>
+
+  </div>
+  
+  </div>
+
+  
+
+  <!--AOS INITIALIZATION-->
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
